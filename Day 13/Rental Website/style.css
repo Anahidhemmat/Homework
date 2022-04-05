@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
 }
 /* -----------header------------ */
 header {
@@ -127,4 +131,92 @@ header h1 {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
+}
+/* -----------Trending Places-------------- */
+
+.trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+.trending section img {
+  width: 100%;
+  border-radius: 10px;
+}
+.trending h3 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+/* -------call to action----------- */
+.cta {
+  margin: 80px 0;
+  background-image: linear-gradient(to right, #3f2321, transparent),
+    url(images/banner-2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #fff;
+}
+.cta h3 {
+  font-size: 4vw;
+  line-height: 5.3vw;
+  font-weight: 500;
+}
+
+.cta p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.cta-btn {
+  background: #ff5361;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* ---------Travelers Stories--------- */
+.stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.stories section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.stories section {
+  position: relative;
+  text-align: center;
+}
+
+.stories p {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.start-btn {
+  background: #ff5361;
+  color: #fff;
+  width: 80%;
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: 60px auto;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 20px;
 }
