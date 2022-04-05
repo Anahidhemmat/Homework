@@ -220,3 +220,18 @@ header h1 {
   padding: 15px;
   font-size: 20px;
 }
+
+/* --------------about-msg-------------- */
+
+.about-msg {
+  text-align: center;
+  margin: 80px 0;
+  color: #333;
+  font-size: 17px;
+}
+
+.about-msg h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
