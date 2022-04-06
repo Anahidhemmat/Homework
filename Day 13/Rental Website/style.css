@@ -504,3 +504,35 @@ nav .fa-bars {
   margin: 20px 0;
   color: #000;
 }
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pagination img {
+  width: 15px;
+  margin: 10px 20px;
+}
+
+.right-arrow {
+  transform: rotate(180deg);
+}
+
+.pagination span {
+  margin: 10px 8px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination .current {
+  background: #333;
+  color: #fff;
+}
+
+/* ------media queries for listing page */
