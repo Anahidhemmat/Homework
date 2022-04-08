@@ -79,3 +79,15 @@ span {
 .img-box:hover .main-img {
   left: 54%;
 }
+.socials {
+  margin-left: 8%;
+  margin-top: 100px;
+}
+.socials a {
+  font-size: 30px;
+  color: #606163;
+  margin-right: 20px;
+}
+.socials a:hover {
+  color: #ff4321;
+}
